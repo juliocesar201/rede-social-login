@@ -1,0 +1,133 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Lato', sans-serif;*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	width: 100vw;
+	height: 100vh;
+}
+
+body#bg-body {
+	background-image: url(../img/fundo2.png);
+	background-color: rgb(173, 173, 173);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 10px;
+}
+
+.logo {
+	font-family:  'Lato', sans-serif;
+	color: #bdbdbd;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px #000, -2px 2px 2px #000, 1px -1px 1px #000, -1px -1px 1px #000;
+}
+
+.form-control {
+	background: #f7f7f7;
+	border: 1px solid #d4d4d4;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 40px;
+}
+
+.box-white {
+	background: #1d1c1c none repeat scroll 0 0;
+	border-radius: 2px;
+	margin: 10px auto 30px;
+	max-width: 80%;
+	padding: 50px 70px 70px 71px;
+}
+
+.titulo {
+	color: #777777;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+.box-input {
+	margin-bottom: 10px;
+}
+
+.login-form {
+	text-align: center;
+}
+
+.btn.btn-primary {
+	background: #424242;
+	border: #bdbdbd;
+	color: #ffae00;
+	font-size: 16px;
+	width: 100%;
+	height: 40px;
+	padding: 0;
+}
+
+.forgot-password {
+	color: #444444;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.forgot-password:hover {
+	color: #bdbdbd;
+}
+
+/*PAGINA HOME*/
+
+body#bg-body-home {
+	background: #ede7d3;
+}
+
+.box-color {
+	background-color: #f8f9fa;
+}
+
+.box-post {
+	border: 1px solid #bdbdbd;
+	margin: 15px;
+	padding: 10px;
+}
+
+.icon-star {
+	color: #ccc;
+}
+
+.icon-star:hover {
+	color: #424242;
+}
+
+.star {
+	color: #424242;
+}
+
+.user-name {
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+
+.btn-light {
+	background-color: #424242;
+}
+
+.btn-post {
+	background-color: #ede7d3;
+	color: #5e5e5e;
+	border: none;
+}
+
+.box-user {
+	border: 1px solid #424242;
+	background-color: #f7f7f7;
+}
+
+footer {
+	background-color: #bdbdbd;
+	height: 50px;
+	width: 100vw;
+}
